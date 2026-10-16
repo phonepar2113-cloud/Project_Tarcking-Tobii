@@ -1,0 +1,30 @@
+# === SETTINGS ===
+$dir = "C:\Users\User\Desktop\Font_Full_Stim\Reading_main_task\stimulus"  # <-- change if needed
+$prefix = "R"
+$suffix = "Sukhumvit"
+$total = 30
+# =================
+
+# --- Preview first (no changes) ---
+for ($i = 1; $i -le $total; $i++) {
+    $src = Join-Path $dir ("{0}.png" -f $i)
+    $dst = Join-Path $dir ("{0}{1}_{2}.png" -f $prefix, $i, $suffix)
+    "{0}  -->  {1}" -f $src, $dst
+}
+
+# --- If the preview looks correct, uncomment the lines below to rename ---
+
+for ($i = 1; $i -le $total; $i++) {
+    $src = Join-Path $dir ("{0}.png" -f $i)
+    if (Test-Path $src) {
+        $newName = ("{0}{1}_{2}.png" -f $prefix, $i, $suffix)
+        Rename-Item -LiteralPath $src -NewName $newName
+        Write-Host "Renamed $src -> $newName"
+    } else {
+        Write-Warning "Skip: missing -> $src"
+    }
+}
+
+
+
+

@@ -1,0 +1,701 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2024.2.4">
+  <Settings>
+    <Param val="3" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u&quot;data/p%s_s%s_%s&quot; % (expInfo['participant'], str(expInfo['session']).zfill(2), expName)" valType="code" updates="None" name="Data filename"/>
+    <Param val="False" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="" valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant': '1004', 'session': '10'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="False" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="2" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="[1920, 1080]" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="float" valType="str" updates="None" name="clockFormat"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="warning" valType="code" updates="None" name="consoleLoggingLevel"/>
+    <Param val="default" valType="str" updates="None" name="ecSampleRate"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="try_font_reading_task" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="" valType="code" updates="None" name="frameRate"/>
+    <Param val="Attempting to measure frame rate of screen, please wait..." valType="str" updates="None" name="frameRateMsg"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="PsychToolbox" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="warning" valType="code" updates="None" name="logging level"/>
+    <Param val="True" valType="bool" updates="None" name="measureFrameRate"/>
+    <Param val="('MIDDLE_BUTTON',)" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="neon.local" valType="str" updates="None" name="plCompanionAddress"/>
+    <Param val="scene_camera.json" valType="file" updates="None" name="plCompanionCameraCalibration"/>
+    <Param val="8080" valType="num" updates="None" name="plCompanionPort"/>
+    <Param val="True" valType="bool" updates="None" name="plCompanionRecordingEnabled"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="0" valType="code" updates="None" name="runMode"/>
+    <Param val="False" valType="bool" updates="None" name="rush"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="instruction_routine">
+      <RoutineSettingsComponent name="instruction_routine" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="instruction_routine" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="inst_img" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="stimulus/instruction.png" valType="file" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="inst_img" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(2, 2)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="norm" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <KeyboardComponent name="key_resp_inst" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_inst" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="first key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <CodeComponent name="init" plugin="None">
+        <Param val="import tobii_research as tr&amp;#10;import time&amp;#10;import math&amp;#10;from datetime import datetime&amp;#10;import os&amp;#10;import csv&amp;#10;import pandas as pd&amp;#10;&amp;#10;use_frequency = 600.0&amp;#10;&amp;#10;&amp;#10;# ========== STATE ==========&amp;#10;gaze_left_eye = None&amp;#10;gaze_right_eye = None&amp;#10;gaze_data_log = []&amp;#10;&amp;#10;shared_fixation = {&amp;#10;    'active': False,&amp;#10;    'target': None  # ต้องเป็น object ที่มี .contains(x, y)&amp;#10;}&amp;#10;&amp;#10;fixation_state = {&amp;#10;    'entered': False,&amp;#10;    'start_time': None,&amp;#10;    'sustained': False&amp;#10;}&amp;#10;&amp;#10;# ใช้สำหรับเก็บชื่อหน้าปัจจุบัน และ state ล่าสุดที่ถูก log&amp;#10;gaze_state = {&amp;#10;    'current': None,&amp;#10;    'last_logged': None&amp;#10;}&amp;#10;&amp;#10;&amp;#10;# ========== TOBII SETUP ==========&amp;#10;found_eyetrackers = tr.find_all_eyetrackers()&amp;#10;if not found_eyetrackers:&amp;#10;    raise RuntimeError(&quot;No Tobii eye tracker found.&quot;)&amp;#10;my_eyetracker = found_eyetrackers[0]&amp;#10;print(f&quot;Connected to: {my_eyetracker}&quot;)&amp;#10;&amp;#10;freqs = my_eyetracker.get_all_gaze_output_frequencies()&amp;#10;print(f&quot;Available frequencies: {freqs}&quot;)&amp;#10;if use_frequency in freqs:&amp;#10;    my_eyetracker.set_gaze_output_frequency(use_frequency)&amp;#10;    current_freq = my_eyetracker.get_gaze_output_frequency()&amp;#10;    print(f&quot;Sampling rate currently in use: {current_freq} Hz&quot;)&amp;#10;else:&amp;#10;    print(f&quot;Warning: {use_frequency} Hz not supported.&quot;)&amp;#10;&amp;#10;&amp;#10;# ========== TIMESTAMP HELPERS ==========&amp;#10;def get_timestamp_raw():&amp;#10;    return time.time()&amp;#10;&amp;#10;def get_timestamp():&amp;#10;    return datetime.now().strftime(&quot;%Y-%m-%d %H:%M:%S.%f&quot;)&amp;#10;&amp;#10;# ========== UNIT CONVERSION ==========&amp;#10;def convert_Tobii_units_to_PsychoPy(gaze_x_norm, gaze_y_norm):&amp;#10;    gaze_x_psy = (gaze_x_norm - 0.5) * 2&amp;#10;    gaze_y_psy = (0.5 - gaze_y_norm) * 2&amp;#10;    return gaze_x_psy, gaze_y_psy&amp;#10;&amp;#10;# ========== GAZE CALLBACK ==========&amp;#10;def gaze_data_callback(gaze_data):&amp;#10;    global gaze_left_eye, gaze_right_eye, fixation_state&amp;#10;&amp;#10;    gaze_left_eye = gaze_data['left_gaze_point_on_display_area']&amp;#10;    gaze_right_eye = gaze_data['right_gaze_point_on_display_area']&amp;#10;&amp;#10;    try:&amp;#10;        gaze_x_norm, gaze_y_norm = gaze_right_eye&amp;#10;        if math.isnan(gaze_x_norm) or math.isnan(gaze_y_norm):&amp;#10;            return&amp;#10;&amp;#10;        gaze_x, gaze_y = convert_Tobii_units_to_PsychoPy(gaze_x_norm, gaze_y_norm)&amp;#10;&amp;#10;        # === LOG GAZE DATA ===&amp;#10;        # ใส่ state เฉพาะบรรทัดแรกของแต่ละ routine&amp;#10;        if gaze_state['current'] != gaze_state['last_logged']:&amp;#10;            current_state_label = gaze_state['current'] or &quot;&quot;&amp;#10;            gaze_state['last_logged'] = gaze_state['current']&amp;#10;        else:&amp;#10;            current_state_label = &quot;&quot;&amp;#10;&amp;#10;        gaze_data_log.append({&amp;#10;            'timestamp_computer': get_timestamp(),&amp;#10;            'timestamp_computer_raw': get_timestamp_raw(),&amp;#10;            'gaze_x': gaze_x,&amp;#10;            'gaze_y': gaze_y,&amp;#10;            'state': current_state_label&amp;#10;            })&amp;#10;#        print(f&quot;[DEBUG]gaze_data_log {gaze_data_log[-1]} &quot;)&amp;#10;&amp;#10;        # === FIXATION CHECK (ไม่เก็บ log) ===&amp;#10;        if shared_fixation['active'] and shared_fixation['target'] is not None:&amp;#10;            now = time.perf_counter()&amp;#10;            if shared_fixation['target'].contains(gaze_x, gaze_y):&amp;#10;#                print(&quot;Enter&quot;)&amp;#10;#                print(f&quot;Position {gaze_x}, {gaze_y}&quot;)&amp;#10;                if not fixation_state['entered']:&amp;#10;                    fixation_state['entered'] = True&amp;#10;                    fixation_state['start_time'] = now&amp;#10;                    fixation_state['sustained'] = False&amp;#10;                elif now - fixation_state['start_time'] &gt;= 1.0:&amp;#10;#                    print(&quot;Success&quot;)&amp;#10;                    fixation_state['sustained'] = True&amp;#10;            else:&amp;#10;#                print(2)&amp;#10;                fixation_state['entered'] = False&amp;#10;                fixation_state['start_time'] = None&amp;#10;                fixation_state['sustained'] = False&amp;#10;&amp;#10;    except Exception as e:&amp;#10;        print(f&quot;[ERROR] gaze_data_callback failed: {e}&quot;)&amp;#10;&amp;#10;# ========== START CALLBACK ==========&amp;#10;my_eyetracker.subscribe_to(tr.EYETRACKER_GAZE_DATA, gaze_data_callback, as_dictionary=True)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="import * as os from 'os';&amp;#10;" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="screen_width, screen_height = win.size&amp;#10;# Normalize session to two digits (allow &quot;1&quot; or &quot;01&quot;)&amp;#10;sess_raw = str(expInfo.get('session', '')).strip()&amp;#10;sessionStr = sess_raw.zfill(2)&amp;#10;&amp;#10;# Build the session file path (adjust folder/name to your actual files)&amp;#10;# Example assumes: ./sessions/session01.xlsx ... session18.xlsx&amp;#10;sessionFile = os.path.join('session_file', f'session{sessionStr}.xlsx')&amp;#10;&amp;#10;# (Optional) sanity check in console&amp;#10;if not os.path.exists(sessionFile):&amp;#10;    print(f&quot;WARNING: Session file not found: {sessionFile}&quot;)&amp;#10;&amp;#10;&amp;#10;participant_id = expInfo['participant']&amp;#10;session_id = expInfo['session']&amp;#10;&amp;#10;os.makedirs(&quot;gaze_data&quot;, exist_ok=True)&amp;#10;&amp;#10;base_name = f&quot;p{participant_id}_s{session_id}_gaze_data&quot;&amp;#10;ext = &quot;.csv&quot;&amp;#10;&amp;#10;# ---- find available filename ----&amp;#10;counter = 0&amp;#10;while True:&amp;#10;    if counter == 0:&amp;#10;        gaze_csv_path = os.path.join(&quot;gaze_data&quot;, base_name + ext)&amp;#10;    else:&amp;#10;        gaze_csv_path = os.path.join(&quot;gaze_data&quot;, f&quot;{base_name}_{counter}{ext}&quot;)&amp;#10;&amp;#10;    if not os.path.exists(gaze_csv_path):&amp;#10;        break&amp;#10;    counter += 1&amp;#10;&amp;#10;# ---- create file + write header once ----&amp;#10;with open(gaze_csv_path, &quot;w&quot;, newline=&quot;&quot;, encoding=&quot;utf-8&quot;) as f:&amp;#10;    writer = csv.writer(f)&amp;#10;    writer.writerow([&amp;#10;        &quot;timestamp_computer&quot;,&amp;#10;        &quot;timestamp_computer_raw&quot;,&amp;#10;        &quot;gaze_x&quot;,&amp;#10;        &quot;gaze_y&quot;,&amp;#10;        &quot;state&quot;&amp;#10;    ])&amp;#10;&amp;#10;gaze_header_written = True&amp;#10;&amp;#10;print(f&quot;[GAZE] Writing to: {gaze_csv_path}&quot;)" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="gaze_state['current'] = 'begin'" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="## Unsubscribe&amp;#10;#my_eyetracker.unsubscribe_from(tr.EYETRACKER_GAZE_DATA, gaze_data_callback)&amp;#10;#os.makedirs(&quot;gaze_data&quot;, exist_ok=True)&amp;#10;#&amp;#10;## Save to CSV&amp;#10;#participant_id = expInfo['participant']&amp;#10;#session_id = expInfo['session']&amp;#10;#output_path = f&quot;gaze_data/p{participant_id}_s{session_id}_gaze_data.csv&quot;&amp;#10;#with open(output_path, 'w', newline='') as csvfile:&amp;#10;#    fieldnames = gaze_data_log[0].keys()&amp;#10;#    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)&amp;#10;#    writer.writeheader()&amp;#10;#    writer.writerows(gaze_data_log)&amp;#10;#&amp;#10;#print(&quot;Saved gaze_log_full.csv.&quot;)&amp;#10;# Unsubscribe&amp;#10;my_eyetracker.unsubscribe_from(tr.EYETRACKER_GAZE_DATA, gaze_data_callback)&amp;#10;print(f&quot;Saved gaze data (streamed) to: {gaze_csv_path}&quot;)&amp;#10;&amp;#10;#os.makedirs(&quot;gaze_data&quot;, exist_ok=True)&amp;#10;#&amp;#10;## Save to CSV using pandas&amp;#10;#participant_id = expInfo['participant']&amp;#10;#session_id = expInfo['session']&amp;#10;#output_path = f&quot;gaze_data/p{participant_id}_s{session_id}_gaze_data.csv&quot;&amp;#10;#&amp;#10;## Convert gaze_data_log (list of dicts) to DataFrame&amp;#10;#df = pd.DataFrame(gaze_data_log)&amp;#10;#&amp;#10;## Save with high float precision&amp;#10;#df.to_csv(output_path, index=False, float_format=&quot;%.6f&quot;)&amp;#10;#&amp;#10;#print(&quot;Saved gaze_log_full.csv.&quot;)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="&amp;#10;# กันไว้ เผื่อยังไม่ set path&amp;#10;if gaze_csv_path and len(gaze_data_log) &gt; 0:&amp;#10;#    routine_name = gaze_state['current'] or &quot;&quot;  # หรือใช้ชื่อ routine จริงถ้าคุณ set ไว้&amp;#10;&amp;#10;    with open(gaze_csv_path, &quot;a&quot;, newline=&quot;&quot;, encoding=&quot;utf-8&quot;) as f:&amp;#10;        writer = csv.writer(f)&amp;#10;        for row in gaze_data_log:&amp;#10;            writer.writerow([&amp;#10;                row.get(&quot;timestamp_computer&quot;, &quot;&quot;),&amp;#10;                row.get(&quot;timestamp_computer_raw&quot;, &quot;&quot;),&amp;#10;                row.get(&quot;gaze_x&quot;, &quot;&quot;),&amp;#10;                row.get(&quot;gaze_y&quot;, &quot;&quot;),&amp;#10;                row.get(&quot;state&quot;, &quot;&quot;)&amp;#10;            ])&amp;#10;&amp;#10;# ล้าง buffer เพื่อไม่กิน RAM&amp;#10;gaze_data_log.clear()&amp;#10;# รีเซ็ต gaze state เพื่อไม่ให้ log state ซ้ำ&amp;#10;gaze_state['current'] = None" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="init" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="fixation_routine">
+      <RoutineSettingsComponent name="fixation_routine" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="fixation_routine" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="fixation_img" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="stimulus/fixation.png" valType="file" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="fixation_img" valType="code" updates="None" name="name"/>
+        <Param val="0.6" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(2, 2)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="norm" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <PolygonComponent name="fixation_area" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="0.2941, -0.6706, -0.6706" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="fixation_area" valType="code" updates="None" name="name"/>
+        <Param val="0" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.75, 0.52)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="circle" valType="str" updates="None" name="shape"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <CodeComponent name="code_4" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="&amp;#10;&amp;#10;# Create gaze dot and text for visualization&amp;#10;screen_width, screen_height = win.size&amp;#10;gaze_text = visual.TextStim(&amp;#10;    win,&amp;#10;    text='',&amp;#10;    pos=(0.6, 0.45),&amp;#10;    height=0.05,&amp;#10;    color='white',&amp;#10;    colorSpace='rgb',&amp;#10;    units='norm',&amp;#10;    name='gaze_text',&amp;#10;    autoLog=False&amp;#10;)&amp;#10;&amp;#10;gaze_dot = visual.Circle(&amp;#10;    win,&amp;#10;    radius=0.02,&amp;#10;    fillColor='red',&amp;#10;    lineColor='red',&amp;#10;    pos=(0, 0),&amp;#10;    units='norm',&amp;#10;    name='gaze_dot',&amp;#10;    autoLog=False&amp;#10;)&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="[screen_width, screen_height] = psychoJS.window.size;&amp;#10;gaze_dot = new visual.Circle(psychoJS.window, {&quot;radius&quot;: 0.02, &quot;fillColor&quot;: &quot;red&quot;, &quot;lineColor&quot;: &quot;red&quot;, &quot;pos&quot;: [0, 0], &quot;units&quot;: &quot;norm&quot;});&amp;#10;gaze_text = new visual.TextStim(psychoJS.window, {&quot;text&quot;: &quot;&quot;, &quot;pos&quot;: [0.6, 0.45], &quot;height&quot;: 0.05, &quot;color&quot;: &quot;white&quot;, &quot;colorSpace&quot;: &quot;rgb&quot;, &quot;units&quot;: &quot;norm&quot;});&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# === Fixation Begin Routine ===&amp;#10;&amp;#10;# แจ้งระบบ logger ว่าตอนนี้อยู่หน้า fixation (จะใช้กับ gaze_state['current'])&amp;#10;gaze_state['current'] = 'fixation'&amp;#10;&amp;#10;# รีเซ็ตสถานะ fixation เพื่อเริ่มตรวจจับใหม่&amp;#10;fixation_state['entered'] = False&amp;#10;fixation_state['start_time'] = None&amp;#10;fixation_state['sustained'] = False&amp;#10;&amp;#10;# กำหนดพื้นที่ fixation ที่ต้องการให้ผู้เข้าร่วมจ้อง&amp;#10;shared_fixation['active'] = True&amp;#10;shared_fixation['target'] = fixation_area  # fixation_area ควรเป็น visual.Rect หรือ visual.Circle ที่มี .contains(x, y)&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="# === Fixation Each Frame ===&amp;#10;&amp;#10;# เช็กว่า fixation ครบหรือยัง&amp;#10;if fixation_state['sustained']:&amp;#10;    print(&quot;\n---------------Fixation complete — exiting fixation_screen.&quot;)&amp;#10;    shared_fixation['active'] = False&amp;#10;    shared_fixation['target'] = None&amp;#10;    gaze_state['current'] = None  # reset gaze state เพื่อไม่ให้ log state ซ้ำ&amp;#10;    continueRoutine = False&amp;#10;&amp;#10;# Optional: แสดงตำแหน่ง gaze&amp;#10;if gaze_right_eye and not fixation_state['sustained']:&amp;#10;    try:&amp;#10;        gaze_x_norm, gaze_y_norm = gaze_right_eye&amp;#10;        if not math.isnan(gaze_x_norm) and not math.isnan(gaze_y_norm):&amp;#10;            gaze_x, gaze_y = convert_Tobii_units_to_PsychoPy(gaze_x_norm, gaze_y_norm)&amp;#10;            gaze_dot.pos = (gaze_x, gaze_y)&amp;#10;            gaze_dot.draw()&amp;#10;#            gaze_text.text = f&quot;x: {gaze_x:.2f}, y: {gaze_y:.2f}&quot;&amp;#10;#            gaze_text.draw()&amp;#10;    except Exception as e:&amp;#10;        print(f&quot;[WARNING] Failed to draw gaze dot: {e}&quot;)&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="# === Fixation End Routine ===&amp;#10;# กันไว้ เผื่อยังไม่ set path&amp;#10;if gaze_csv_path and len(gaze_data_log) &gt; 0:&amp;#10;    routine_name = gaze_state['current'] or &quot;&quot;  # หรือใช้ชื่อ routine จริงถ้าคุณ set ไว้&amp;#10;&amp;#10;    with open(gaze_csv_path, &quot;a&quot;, newline=&quot;&quot;, encoding=&quot;utf-8&quot;) as f:&amp;#10;        writer = csv.writer(f)&amp;#10;        for row in gaze_data_log:&amp;#10;            writer.writerow([&amp;#10;                row.get(&quot;timestamp_computer&quot;, &quot;&quot;),&amp;#10;                row.get(&quot;timestamp_computer_raw&quot;, &quot;&quot;),&amp;#10;                row.get(&quot;gaze_x&quot;, &quot;&quot;),&amp;#10;                row.get(&quot;gaze_y&quot;, &quot;&quot;),&amp;#10;                row.get(&quot;state&quot;, &quot;&quot;)&amp;#10;            ])&amp;#10;&amp;#10;# ล้าง buffer เพื่อไม่กิน RAM&amp;#10;gaze_data_log.clear()&amp;#10;# ปิดระบบตรวจจับ fixation&amp;#10;shared_fixation['active'] = False&amp;#10;shared_fixation['target'] = None&amp;#10;&amp;#10;# รีเซ็ต gaze state เพื่อไม่ให้ log state ซ้ำ&amp;#10;gaze_state['current'] = None&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_4" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="reading_routine">
+      <RoutineSettingsComponent name="reading_routine" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="reading_routine" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="reading_img" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$stimulus_img" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="reading_img" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(2, 2)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="50" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="norm" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <KeyboardComponent name="key_finish_read" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_finish_read" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="50" valType="code" updates="constant" name="stopVal"/>
+        <Param val="all keys" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <CodeComponent name="code_5" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# === Reading Begin Routine ===&amp;#10;gaze_state['current'] = 'reading'&amp;#10;gaze_state['last_logged'] = None   # ให้ &quot;reading&quot; โผล่ 1 แถวตอนเริ่ม&amp;#10;&amp;#10;# reset counter ใน routine นี้&amp;#10;spacebar_count = 0&amp;#10;&amp;#10;# baseline: จำนวน keys ที่ค้างมาก่อนเข้า routine นี้&amp;#10;keys_base = len(key_finish_read.keys) if key_finish_read.keys else 0&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="# === Reading Each Frame ===&amp;#10;&amp;#10;# วาดตำแหน่ง gaze แบบ real-time (ของเดิมคุณ)&amp;#10;if gaze_right_eye:&amp;#10;    try:&amp;#10;        gaze_x_norm, gaze_y_norm = gaze_right_eye&amp;#10;        if not math.isnan(gaze_x_norm) and not math.isnan(gaze_y_norm):&amp;#10;            gaze_x, gaze_y = convert_Tobii_units_to_PsychoPy(gaze_x_norm, gaze_y_norm)&amp;#10;            # gaze_dot.pos = (gaze_x, gaze_y)&amp;#10;            # gaze_dot.draw()&amp;#10;            # gaze_text.text = f&quot;x: {gaze_x:.2f}, y: {gaze_y:.2f}&quot;&amp;#10;            # gaze_text.draw()&amp;#10;    except Exception as e:&amp;#10;        print(f&quot;[WARNING] Failed to draw gaze dot: {e}&quot;)&amp;#10;&amp;#10;# -------------------------------&amp;#10;# ตรวจการกด spacebar (นับทุกครั้งที่กด ไม่ว่าเขากดกี่ครั้ง)&amp;#10;# ให้ marker โผล่ครั้งเดียวต่อการกด (edge detect)&amp;#10;# -------------------------------&amp;#10;keys_list = key_finish_read.keys&amp;#10;n_total = len(keys_list) if keys_list else 0&amp;#10;&amp;#10;# จำนวนการกด &quot;ใหม่&quot; ที่เกิดใน routine นี้เท่านั้น&amp;#10;n_pressed = max(0, n_total - keys_base)&amp;#10;&amp;#10;#print(&quot;n_total:&quot;, n_total, &quot;keys_base:&quot;, keys_base, &quot;n_pressed:&quot;, n_pressed)&amp;#10;&amp;#10;# ถ้ามีการกดเพิ่มจากครั้งล่าสุดใน routine นี้ -&gt; ยิง marker 1 ครั้ง&amp;#10;if n_pressed &gt; spacebar_count:&amp;#10;    spacebar_count = n_pressed&amp;#10;#    print(&quot;spacebar_count:&quot;, spacebar_count)&amp;#10;&amp;#10;    gaze_state['current'] = f'spacebar{spacebar_count}'&amp;#10;    gaze_state['last_logged'] = None" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="# -------------------------------&amp;#10;# ยิง marker ตอนจบ reading&amp;#10;# -------------------------------&amp;#10;gaze_state['current'] = 'end_reading'&amp;#10;&amp;#10;# -------------------------------&amp;#10;# กันไว้ เผื่อยังไม่ set path&amp;#10;if gaze_csv_path and len(gaze_data_log) &gt; 0:&amp;#10;    routine_name = gaze_state['current'] or &quot;&quot;&amp;#10;&amp;#10;    with open(gaze_csv_path, &quot;a&quot;, newline=&quot;&quot;, encoding=&quot;utf-8&quot;) as f:&amp;#10;        writer = csv.writer(f)&amp;#10;        for row in gaze_data_log:&amp;#10;            writer.writerow([&amp;#10;                row.get(&quot;timestamp_computer&quot;, &quot;&quot;),&amp;#10;                row.get(&quot;timestamp_computer_raw&quot;, &quot;&quot;),&amp;#10;                row.get(&quot;gaze_x&quot;, &quot;&quot;),&amp;#10;                row.get(&quot;gaze_y&quot;, &quot;&quot;),&amp;#10;                row.get(&quot;state&quot;, &quot;&quot;)&amp;#10;            ])&amp;#10;&amp;#10;# ล้าง buffer เพื่อไม่กิน RAM&amp;#10;gaze_data_log.clear()&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_5" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="question_routine">
+      <RoutineSettingsComponent name="question_routine" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="question_routine" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="question_image" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$question_img" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="question_image" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(2, 2)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="norm" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <KeyboardComponent name="key_answer" plugin="None">
+        <Param val="'1','2','3','4'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="$correct_key" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_answer" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="first key" valType="str" updates="constant" name="store"/>
+        <Param val="True" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <CodeComponent name="code_6" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# === Trial Begin Routine ===&amp;#10;gaze_state['current'] = 'question'&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="# === Trial Each Frame ===&amp;#10;&amp;#10;# วาดตำแหน่ง gaze แบบ real-time&amp;#10;if gaze_right_eye:&amp;#10;    try:&amp;#10;        gaze_x_norm, gaze_y_norm = gaze_right_eye&amp;#10;        if not math.isnan(gaze_x_norm) and not math.isnan(gaze_y_norm):&amp;#10;            gaze_x, gaze_y = convert_Tobii_units_to_PsychoPy(gaze_x_norm, gaze_y_norm)&amp;#10;#            gaze_dot.pos = (gaze_x, gaze_y)&amp;#10;#            gaze_dot.draw()&amp;#10;#            gaze_text.text = f&quot;x: {gaze_x:.2f}, y: {gaze_y:.2f}&quot;&amp;#10;#            gaze_text.draw()&amp;#10;    except Exception as e:&amp;#10;        print(f&quot;[WARNING] Failed to draw gaze dot: {e}&quot;)&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="# -------------------------------&amp;#10;# กันไว้ เผื่อยังไม่ set path&amp;#10;if gaze_csv_path and len(gaze_data_log) &gt; 0:&amp;#10;    routine_name = gaze_state['current'] or &quot;&quot;  # หรือใช้ชื่อ routine จริงถ้าคุณ set ไว้&amp;#10;&amp;#10;    with open(gaze_csv_path, &quot;a&quot;, newline=&quot;&quot;, encoding=&quot;utf-8&quot;) as f:&amp;#10;        writer = csv.writer(f)&amp;#10;        for row in gaze_data_log:&amp;#10;            writer.writerow([&amp;#10;                row.get(&quot;timestamp_computer&quot;, &quot;&quot;),&amp;#10;                row.get(&quot;timestamp_computer_raw&quot;, &quot;&quot;),&amp;#10;                row.get(&quot;gaze_x&quot;, &quot;&quot;),&amp;#10;                row.get(&quot;gaze_y&quot;, &quot;&quot;),&amp;#10;                row.get(&quot;state&quot;, &quot;&quot;)&amp;#10;            ])&amp;#10;&amp;#10;# ล้าง buffer เพื่อไม่กิน RAM&amp;#10;gaze_data_log.clear()&amp;#10;gaze_state['current'] = None" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_6" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="ratingcomp_routine">
+      <RoutineSettingsComponent name="ratingcomp_routine" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="ratingcomp_routine" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="ratingcomp_img" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$rating_comp_img" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="ratingcomp_img" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(2, 2)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="norm" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <KeyboardComponent name="key_ratingcomp" plugin="None">
+        <Param val="'1','2','3','4','5'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_ratingcomp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="first key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <CodeComponent name="code_7" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# === Trial Begin Routine ===&amp;#10;gaze_state['current'] = 'ratingcomp'&amp;#10;&amp;#10;# Skip this rating if not requested&amp;#10;if not doRating or rating_comp_img in [None, '', 'nan']:&amp;#10;    continueRoutine = False&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="# === Trial Each Frame ===&amp;#10;&amp;#10;# วาดตำแหน่ง gaze แบบ real-time&amp;#10;if gaze_right_eye:&amp;#10;    try:&amp;#10;        gaze_x_norm, gaze_y_norm = gaze_right_eye&amp;#10;        if not math.isnan(gaze_x_norm) and not math.isnan(gaze_y_norm):&amp;#10;            gaze_x, gaze_y = convert_Tobii_units_to_PsychoPy(gaze_x_norm, gaze_y_norm)&amp;#10;#            gaze_dot.pos = (gaze_x, gaze_y)&amp;#10;#            gaze_dot.draw()&amp;#10;#            gaze_text.text = f&quot;x: {gaze_x:.2f}, y: {gaze_y:.2f}&quot;&amp;#10;#            gaze_text.draw()&amp;#10;    except Exception as e:&amp;#10;        print(f&quot;[WARNING] Failed to draw gaze dot: {e}&quot;)&amp;#10;&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="&amp;#10;# -------------------------------&amp;#10;# กันไว้ เผื่อยังไม่ set path&amp;#10;if gaze_csv_path and len(gaze_data_log) &gt; 0:&amp;#10;    routine_name = gaze_state['current'] or &quot;&quot;  # หรือใช้ชื่อ routine จริงถ้าคุณ set ไว้&amp;#10;&amp;#10;    with open(gaze_csv_path, &quot;a&quot;, newline=&quot;&quot;, encoding=&quot;utf-8&quot;) as f:&amp;#10;        writer = csv.writer(f)&amp;#10;        for row in gaze_data_log:&amp;#10;            writer.writerow([&amp;#10;                row.get(&quot;timestamp_computer&quot;, &quot;&quot;),&amp;#10;                row.get(&quot;timestamp_computer_raw&quot;, &quot;&quot;),&amp;#10;                row.get(&quot;gaze_x&quot;, &quot;&quot;),&amp;#10;                row.get(&quot;gaze_y&quot;, &quot;&quot;),&amp;#10;                row.get(&quot;state&quot;, &quot;&quot;)&amp;#10;            ])&amp;#10;&amp;#10;# ล้าง buffer เพื่อไม่กิน RAM&amp;#10;gaze_data_log.clear()&amp;#10;gaze_state['current'] = None" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_7" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="ratingfont_routine">
+      <RoutineSettingsComponent name="ratingfont_routine" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="ratingfont_routine" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="ratingfont_img" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$rating_font_img" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="ratingfont_img" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(2, 2)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="norm" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <KeyboardComponent name="key_ratingfont" plugin="None">
+        <Param val="'1','2','3','4','5'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_ratingfont" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="first key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <CodeComponent name="code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# === Trial Begin Routine ===&amp;#10;gaze_state['current'] = 'ratingfont'&amp;#10;&amp;#10;if not doRating or rating_font_img in [None, '', 'nan']:&amp;#10;    continueRoutine = False&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="# === Trial Each Frame ===&amp;#10;&amp;#10;# วาดตำแหน่ง gaze แบบ real-time&amp;#10;if gaze_right_eye:&amp;#10;    try:&amp;#10;        gaze_x_norm, gaze_y_norm = gaze_right_eye&amp;#10;        if not math.isnan(gaze_x_norm) and not math.isnan(gaze_y_norm):&amp;#10;            gaze_x, gaze_y = convert_Tobii_units_to_PsychoPy(gaze_x_norm, gaze_y_norm)&amp;#10;#            gaze_dot.pos = (gaze_x, gaze_y)&amp;#10;#            gaze_dot.draw()&amp;#10;#            gaze_text.text = f&quot;x: {gaze_x:.2f}, y: {gaze_y:.2f}&quot;&amp;#10;#            gaze_text.draw()&amp;#10;    except Exception as e:&amp;#10;        print(f&quot;[WARNING] Failed to draw gaze dot: {e}&quot;)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="# -------------------------------&amp;#10;# กันไว้ เผื่อยังไม่ set path&amp;#10;if gaze_csv_path and len(gaze_data_log) &gt; 0:&amp;#10;    routine_name = gaze_state['current'] or &quot;&quot;  # หรือใช้ชื่อ routine จริงถ้าคุณ set ไว้&amp;#10;&amp;#10;    with open(gaze_csv_path, &quot;a&quot;, newline=&quot;&quot;, encoding=&quot;utf-8&quot;) as f:&amp;#10;        writer = csv.writer(f)&amp;#10;        for row in gaze_data_log:&amp;#10;            writer.writerow([&amp;#10;                row.get(&quot;timestamp_computer&quot;, &quot;&quot;),&amp;#10;                row.get(&quot;timestamp_computer_raw&quot;, &quot;&quot;),&amp;#10;                row.get(&quot;gaze_x&quot;, &quot;&quot;),&amp;#10;                row.get(&quot;gaze_y&quot;, &quot;&quot;),&amp;#10;                row.get(&quot;state&quot;, &quot;&quot;)&amp;#10;            ])&amp;#10;&amp;#10;# ล้าง buffer เพื่อไม่กิน RAM&amp;#10;gaze_data_log.clear()&amp;#10;gaze_state['current'] = None" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="init_routine">
+      <RoutineSettingsComponent name="init_routine" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="init_routine" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="code_3" plugin="None">
+        <Param val="import os&amp;#10;" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="import * as os from 'os';&amp;#10;" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="&amp;#10;# Normalize session to two digits (allow &quot;1&quot; or &quot;01&quot;)&amp;#10;sess_raw = str(expInfo.get('session', '')).strip()&amp;#10;sessionStr = sess_raw.zfill(2)&amp;#10;&amp;#10;# Build the session file path (adjust folder/name to your actual files)&amp;#10;# Example assumes: ./sessions/session01.xlsx ... session18.xlsx&amp;#10;sessionFile = os.path.join('sessions', f'session{sessionStr}.xlsx')&amp;#10;&amp;#10;# (Optional) sanity check in console&amp;#10;if not os.path.exists(sessionFile):&amp;#10;    print(f&quot;WARNING: Session file not found: {sessionFile}&quot;)&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_3" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="end_routine">
+      <RoutineSettingsComponent name="end_routine" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="end_routine" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="end_img" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="stimulus/end_exp.png" valType="file" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="end_img" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(2, 2)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="norm" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="instruction_routine"/>
+    <LoopInitiator loopType="TrialHandler" name="loopexp">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="$sessionFile" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="loopexp" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="fixation_routine"/>
+    <Routine name="reading_routine"/>
+    <Routine name="question_routine"/>
+    <Routine name="ratingcomp_routine"/>
+    <Routine name="ratingfont_routine"/>
+    <LoopTerminator name="loopexp"/>
+    <Routine name="end_routine"/>
+  </Flow>
+</PsychoPy2experiment>
